@@ -1,0 +1,28 @@
+
+ #include <stdio. h>
+ #include <stdlib. h>
+ #include <unistd. h>
+#include <sys/types. h>
+
+
+
+ int main()
+{
+ pid_t forkrank;
+ forkrank = fork( );
+
+ if (forkrank == 0)
+
+printf("child procedure is executing. (n");
+ sleep(3) ;
+ printf("child procedure is now going to exit. (n");
+ else if (forkrank != -1)
+
+ printf ("parent procedure is in wait mode\n");
+wait (NULL);
+ printf("parent procedure is now going to exit. (n");
+
+ elsef
+ perror ("error occured in calling function fork()");
+
+ return 0; }
