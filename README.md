@@ -1,5 +1,6 @@
 # OPERATING-SYSTEMS
-Full Course of OS  in whole repo  and also contain some interview questions.
+PRACTICALS
+
 1.Write a program (using fork() and/or exec() commands) where parent and child execute: a) 
 same program, same code. b) same program, different code. - c) before terminating, the parent 
 waits for the child to finish its task.
